@@ -8,7 +8,8 @@ You can find links to the reports of each practical work down here :
 | N° TP |                       Titre                       | Lien |
 |:-----:|:-------------------------------------------------:|:----:|
 |   1   | Inversion de contrôle et Injection de dépendances | [🔗](https://raw.githubusercontent.com/n4rk/Hachmi-Mohamed-Amine_JEE/master/TP-1/Rapport%20TP1%20JEE.pdf) |
-|   2   |       ORM JPA, Hibernate et Spring Data        | [🔗](https://raw.githubusercontent.com/n4rk/Hachmi-Mohamed-Amine_JEE/master/TP-1/Rapport%20TP1%20JEE.pdf) |
+|   2   |       ORM JPA, Hibernate et Spring Data        | [🔗](https://raw.githubusercontent.com/n4rk/Hachmi-Mohamed-Amine_JEE/master/TP-2/Rapport%20TP2-%20JEE.pdf) |
+
 
 
 
