@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>ma.enset</groupId>
-    <artifactId>TP-2</artifactId>
+    <artifactId>TP-3</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>TP-2</name>
-    <description>TP-2</description>
+    <name>TP-3</name>
+    <description>TP-3</description>
     <properties>
         <java.version>1.8</java.version>
     </properties>
@@ -26,13 +26,6 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
-        <!-- IF WE WANT TO USE H2 Database -->
-        <dependency>
-            <groupId>com.h2database</groupId>
-            <artifactId>h2</artifactId>
-            <scope>runtime</scope>
-        </dependency>
-
         <!-- IF WE WANT TO USE MySQL Database -->
         <!--
         <dependency>
@@ -40,7 +33,11 @@
             <artifactId>mysql-connector-java</artifactId>
         </dependency>
         -->
-
+        <dependency>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
+            <scope>runtime</scope>
+        </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
@@ -56,7 +53,6 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
         </dependency>
-
 
     </dependencies>
 
