@@ -5,14 +5,14 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.6.6</version>
+        <version>2.6.7</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>ma.enset</groupId>
-    <artifactId>TP-4</artifactId>
+    <artifactId>tpEtudiants</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>TP-4</name>
-    <description>TP-4</description>
+    <name>tpEtudiants</name>
+    <description>tpEtudiants</description>
     <properties>
         <java.version>1.8</java.version>
     </properties>

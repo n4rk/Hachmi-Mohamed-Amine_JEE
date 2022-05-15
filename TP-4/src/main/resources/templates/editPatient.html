@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="template1"
+      xmlns:sec="https://www.thymeleaf.org/extras/spring-security">
+<head>
+    <meta charset="UTF-8">
+    <title>Modification Patient</title>
+</head>
+<body>
+<div layout:fragment="content3">
+    <div class="col-6 mx-auto my-2">
+    <h2 class="fw-bold text-primary my-5">Modification du patient :</h2>
+        <form method="post" th:action="@{/admin/save(page=${page},keyword=${keyword})}">
+            <div class="input-group mt-3">
+                <label class="col-3 input-group-text">ID :</label>
+                <label class="col-9 input-group-text" th:text="${patient.id}"></label>
+                <input class="form-control" type="hidden" name="id" th:value="${patient.id}">
+            </div>
+            <span th:errors="${patient.id}" class="text-danger font-monospace"></span>
+
+            <div class="input-group mt-3">
+                <label for="nom" class="col-3 input-group-text">Nom :</label>
+                <input class="form-control col-9" type="text" name="nom" id="nom" th:value="${patient.nom}">
+            </div>
+            <span th:errors="${patient.nom}" class="text-danger font-monospace"></span>
+
+            <div class="input-group mt-3">
+                <label for="dateN" class="col-3 input-group-text">Date Naissance :</label>
+                <input class="form-control col-9" type="date" name="dateNaissance" id="dateN" th:value="${patient.dateNaissance}">
+            </div>
+            <span th:errors="${patient.dateNaissance}" class="text-danger font-monospace"></span>
+
+            <div class="input-group mt-3">
+                <label class="col-3 input-group-text">Malade</label>
+                <input class="form-check col-1" type="checkbox" name="malade" th:checked="${patient.malade}">
+            </div>
+            <span th:errors="${patient.dateNaissance}" class="text-danger font-monospace"></span>
+
+            <div class="input-group mt-3">
+                <label for="score" class="col-3 input-group-text">Score :</label>
+                <input class="form-control col-9" type="text" name="score" id="score" th:value="${patient.score}">
+            </div>
+            <span th:errors="${patient.score}" class="text-danger font-monospace"></span>
+
+            <button type="submit" class="btn btn-primary mt-4 col-12">Save</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>

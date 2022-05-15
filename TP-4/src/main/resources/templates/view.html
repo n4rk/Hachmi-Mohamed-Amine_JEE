@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="template1"
+      xmlns:sec="https://www.thymeleaf.org/extras/spring-security">
+<head>
+    <meta charset="UTF-8">
+    <title>Consultation Patient</title>
+</head>
+<body>
+<div layout:fragment="content5">
+    <div class="container">
+        <div class="card mt-5">
+            <div class="card-header py-3">
+                <h1 class="fw-bold text-primary"><i class="fa-solid fa-eye px-3 fs-2"></i> Consulter Patient :</h1>
+            </div>
+            <div class="card-body px-5 py-4">
+                <div>
+                    <div class="col-12 my-3">
+                        <div class="input-group mt-2 mb-4">
+                            <label class="col-2 input-group-text">ID du Patient :</label>
+                            <span class="form-control col-9" th:text="${patient.id}"></span>
+                        </div>
+                    </div>
+                    <div class="col-12 my-3">
+                        <div class="input-group mt-2 mb-4">
+                            <label class="col-2 input-group-text">Nom du Patient :</label>
+                            <span class="form-control col-9" th:text="${patient.nom}"></span>
+                        </div>
+                    </div>
+                    <div class="col-12 my-3">
+                        <div class="input-group mt-2 mb-4">
+                            <label class="col-2 input-group-text">Malade :</label>
+                            <span class="form-control col-9" th:text="${patient.malade}?'Oui':'Non'"></span>
+                        </div>
+                    </div>
+                    <div class="col-12 my-3">
+                        <div class="input-group mt-2 mb-4">
+                            <label class="col-2 input-group-text">Score du Patient :</label>
+                            <span class="form-control col-9" th:text="${patient.score}"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
