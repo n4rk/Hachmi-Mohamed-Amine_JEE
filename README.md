@@ -12,7 +12,7 @@ You can find links to the reports of each practical work down here :
 |   3   | JPA, Hibernate et Spring Data | [🔗](https://github.com/n4rk/Hachmi-Mohamed-Amine_JEE/tree/master/TP-3) |
 |   4   | Spring MVC Thymeleaf | [🔗](https://github.com/n4rk/Hachmi-Mohamed-Amine_JEE/tree/master/TP-4) |
 |   5   | Spring MVC, Spring Data JPA, Spring Security | [🔗](https://github.com/n4rk/Hachmi-Mohamed-Amine_JEE/tree/master/tpEtudiants) |
-|   6   | Digital Banking Project | [🔗](https://github.com/n4rk/Hachmi-Mohamed-Amine_JEE/) |
+|   6   | Digital Banking Project | [🔗]([https://github.com/n4rk/Digital-Banking]) |
 
 
 > **HACHMI Mohamed Amine**
