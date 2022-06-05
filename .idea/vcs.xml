@@ -2,5 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/DigitalBanking" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/DigitalBanking/digital-banking-angular/frontend" vcs="Git" />
   </component>
 </project>
