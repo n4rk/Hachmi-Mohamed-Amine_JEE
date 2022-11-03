@@ -1,6 +1,6 @@
 # TP-JEE
 
-This repository is specified for the JEE class exercises.
+This repository is specified for the JEE class Practicum.
 
 You can find links to the reports of each practical work down here :
 
